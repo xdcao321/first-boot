@@ -1,7 +1,7 @@
-package cn.xdcao.fistboot;
+package cn.xdcao.fistboot.control;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author xd.cao
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Description TODO
  * @createTime 2020年02月23日 22:57:00
  */
+@RestController
 public class MyFirstControl {
 
     @GetMapping("/hello")
-    @ResponseBody
     public String hello(){
         return "Hello World";
     }
