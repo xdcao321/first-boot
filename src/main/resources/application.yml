@@ -3,4 +3,5 @@ server:
 logging:
   file:
     path: ./log/first-bootlog.log
-  level: info
+  level:
+    root: info

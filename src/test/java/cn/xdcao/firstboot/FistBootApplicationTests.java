@@ -1,4 +1,4 @@
-package cn.xdcao.fistboot;
+package cn.xdcao.firstboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
