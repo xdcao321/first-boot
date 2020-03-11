@@ -16,8 +16,8 @@ public class FistBootApplication {
     public static void main(String[] args) {
 
         ApplicationContext context = SpringApplication.run(FistBootApplication.class, args);
-        context.getEnvironment().getProperty("server.port");
-
+        String port = context.getEnvironment().getProperty("server.port");
+        log.info("####info - port:##### {}" , port);
 
     }
 

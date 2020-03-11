@@ -1,2 +1,6 @@
 server:
   port: 8899
+logging:
+  file:
+    path: ./log/first-bootlog.log
+  level: info
