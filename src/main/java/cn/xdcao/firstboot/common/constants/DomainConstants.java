@@ -1,4 +1,4 @@
-package cn.xdcao.firstboot.domain;
+package cn.xdcao.firstboot.common.constants;
 
 /**
  * @author xd.cao
