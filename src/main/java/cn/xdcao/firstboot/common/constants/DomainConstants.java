@@ -10,4 +10,5 @@ package cn.xdcao.firstboot.common.constants;
 public interface DomainConstants {
     String SELECT_ID = "ObjectId";
     String STATE_INACTIVE = "inactive";
+    String STATE_ACTIVE = "active";
 }
