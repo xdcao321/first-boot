@@ -1,4 +1,4 @@
-package cn.xdcao.firstboot.common;
+package cn.xdcao.firstboot.common.base;
 
 import cn.xdcao.firstboot.common.constants.DomainConstants;
 
@@ -20,7 +20,7 @@ public class BaseEntity implements Serializable {
     private Long objectId;
 
     /**
-     *创始人
+     *对象创始人
      *@date: 2020/3/13
      */
     private String orginator;
@@ -36,7 +36,7 @@ public class BaseEntity implements Serializable {
     private String modPerson;
 
     /**
-     * 对象i状态，是否激活,默认激活
+     * 对象状态，是否激活,默认激活
      */
     private String status = DomainConstants.STATE_ACTIVE;
 
@@ -47,7 +47,7 @@ public class BaseEntity implements Serializable {
     private Date createDate;
 
     /**
-     *
+     *更新时间
      *@date: 2020/3/13
      */
     private Date updateDate;
