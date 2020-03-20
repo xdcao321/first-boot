@@ -1,6 +1,7 @@
 package cn.xdcao.firstboot.common.base;
 
 import cn.xdcao.firstboot.common.constants.DomainConstants;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -12,6 +13,7 @@ import java.util.Date;
  * @Description: base entity
  * @date 2020年03月13日 01:36:00
  */
+@Data
 public class BaseEntity implements Serializable {
 
     /**

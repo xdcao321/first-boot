@@ -38,7 +38,7 @@
 
     <!-- SpringBoot 相关依赖 -->
     <dependencies>
-
+        <!-- mybatis plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
