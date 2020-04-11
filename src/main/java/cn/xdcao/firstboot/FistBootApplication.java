@@ -11,7 +11,9 @@ import org.springframework.context.ApplicationContext;
  * @author xd.cao
  */
 @Slf4j
-/*暂时没有配mybatis 禁止datasource自动装配办法：*/
+/*
+  暂时没有配mybatis 禁止datasource自动装配办法：
+  */
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 public class FistBootApplication {
 
